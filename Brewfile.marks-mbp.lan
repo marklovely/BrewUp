@@ -13,10 +13,10 @@ brew "minikube"
 brew "openjdk"
 brew "pipenv"
 brew "pyenv-virtualenv"
-brew "python"
 brew "wget"
 brew "zsh"
 brew "romkatv/powerlevel10k/powerlevel10k"
+mas "Count & Sum by Color for Microsoft Excel", id: 901765111
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
