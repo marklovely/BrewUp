@@ -16,7 +16,7 @@ brew "mas"
 brew "minikube"
 brew "pipenv"
 brew "pyenv-virtualenv"
-brew "python@3.8"
+brew "python@3.8", link: true
 brew "terraform"
 brew "wget"
 brew "zsh"
