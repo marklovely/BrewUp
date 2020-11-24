@@ -25,6 +25,7 @@ cask "google-cloud-sdk"
 mas "AdBlock", id: 1402042596
 mas "Count & Sum by Color for Microsoft Excel", id: 901765111
 mas "iMovie", id: 408981434
+mas "iStumbler", id: 546033581
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
