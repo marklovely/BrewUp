@@ -2,29 +2,28 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "romkatv/powerlevel10k"
+brew "openjdk"
+brew "allure"
 brew "autoconf"
 brew "coreutils"
 brew "git"
 brew "gnupg"
 brew "git-secret"
-brew "openjdk"
 brew "gradle"
 brew "helm"
 brew "jq"
 brew "kubernetes-cli"
 brew "mas"
 brew "minikube"
+brew "p7zip"
 brew "pipenv"
 brew "pyenv-virtualenv"
-brew "python@3.8", link: true
+brew "python@3.8"
 brew "terraform"
 brew "wget"
 brew "zsh"
 brew "romkatv/powerlevel10k/powerlevel10k"
 cask "google-cloud-sdk"
-mas "AdBlock", id: 1402042596
-mas "Count & Sum by Color for Microsoft Excel", id: 901765111
-mas "iMovie", id: 408981434
 mas "iStumbler", id: 546033581
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
