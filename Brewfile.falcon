@@ -1,6 +1,5 @@
 tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "localsend/localsend"
 tap "rfidresearchgroup/proxmark3"
 tap "teamookla/speedtest"
@@ -29,6 +28,7 @@ brew "telnet"
 brew "tree"
 brew "wget"
 brew "wifi-password"
+brew "yt-dlp"
 brew "zbar"
 brew "zsh"
 brew "teamookla/speedtest/speedtest"
@@ -41,8 +41,11 @@ cask "arduino-ide"
 cask "autodesk-fusion"
 cask "balenaetcher"
 cask "bambu-studio"
+cask "brave-browser"
 cask "burp-suite-professional"
+cask "chatgpt"
 cask "cyberduck"
+cask "db-browser-for-sqlite"
 cask "discord"
 cask "disk-inventory-x"
 cask "dropshare"
@@ -51,7 +54,6 @@ cask "firefox"
 cask "folx"
 cask "font-fira-code-nerd-font"
 cask "freecad"
-cask "geekbench"
 cask "google-chrome"
 cask "hyperbackupexplorer"
 cask "insomnia"
@@ -61,6 +63,7 @@ cask "iterm2"
 cask "keka"
 cask "localsend"
 cask "logi-options-plus"
+cask "macdown"
 cask "macmediakeyforwarder"
 cask "macupdater"
 cask "microsoft-auto-update"
@@ -71,10 +74,9 @@ cask "mqtt-explorer"
 cask "nordvpn"
 cask "obsidian"
 cask "openmtp"
-cask "openscad"
 cask "orcaslicer"
 cask "parallels"
-cask "prusaslicer"
+cask "plex"
 cask "radio-silence"
 cask "raspberry-pi-imager"
 cask "scroll-reverser"
@@ -95,7 +97,6 @@ mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
 mas "Brother P-touch Editor", id: 1453365242
-mas "Disk Speed Test", id: 425264550
 mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
 mas "LanScan", id: 472226235
@@ -111,6 +112,7 @@ mas "Say No to Notch", id: 1639306886
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
 mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
 mas "‎WhatsApp", id: 310633997
 vscode "adamhartford.vscode-base64"
