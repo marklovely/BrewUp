@@ -1,0 +1,169 @@
+tap "anchore/grype"
+tap "gcenx/wine"
+tap "hashicorp/tap"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "mongodb/brew"
+# Run your GitHub Actions locally
+brew "act"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Library for manipulating PNG images
+brew "libpng"
+# Low-level library for pixel manipulation
+brew "pixman"
+# Easily download, build, install, upgrade, and uninstall Python packages
+brew "python-setuptools"
+# Vector graphics library with cross-device output support
+brew "cairo"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Isolated development environments using Docker
+brew "docker-compose"
+# Command-line tools for fly.io services
+brew "flyctl"
+# Library and utilities for processing GIFs
+brew "giflib"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
+# Audit git repos for secrets
+brew "gitleaks"
+# Vulnerability scanner for container images and filesystems
+brew "grype"
+# Image manipulation library
+brew "jpeg"
+# Modern load testing tool, using Go and JavaScript
+brew "k6"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Template-free customization of Kubernetes YAML manifests
+brew "kustomize"
+# Postgres C API library
+brew "libpq", link: true
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Additional guest agents for Lima
+brew "lima-additional-guestagents"
+# Mac App Store command-line interface
+brew "mas"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
+# Tool for managing OCI containers and pods
+brew "podman"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
+# Python bindings for v6 of Qt
+brew "pyqt"
+# Python interface to Tcl/Tk
+brew "python-tk@3.13"
+# Rsync for cloud storage
+brew "rclone"
+# Command-line interface for Render
+brew "render"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# SMART hard drive monitoring
+brew "smartmontools"
+# SOcket CAT: netcat on steroids
+brew "socat"
+# Powerful free data recovery utility
+brew "testdisk"
+# Terraform
+brew "hashicorp/tap/terraform", trusted: true
+# Open Source Multimedia Framework
+cask "gstreamer-development"
+# Open Source Multimedia Framework
+cask "gstreamer-runtime"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Multimedia player
+cask "vlc"
+mas "Evernote Web Clipper", id: 1481669779
+mas "HP", id: 1474276998
+mas "iMovie", id: 408981434
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "PDFgear", id: 6469021132
+mas "Windows App", id: 1295203466
+mas "Xcode", id: 497799835
+vscode "anysphere.cursorpyright"
+vscode "anysphere.remote-containers"
+vscode "anysphere.remote-ssh"
+vscode "codezombiech.gitignore"
+vscode "compilenix.vscode-zonefile"
+vscode "coolbear.systemd-unit-file"
+vscode "d4nyll.devops-extension-pack"
+vscode "davidanson.vscode-markdownlint"
+vscode "donjayamanne.githistory"
+vscode "donjayamanne.python-environment-manager"
+vscode "donjayamanne.python-extension-pack"
+vscode "dotjoshjohnson.xml"
+vscode "eamodio.gitlens"
+vscode "ecmel.vscode-html-css"
+vscode "eriklynd.json-tools"
+vscode "foxundermoon.shell-format"
+vscode "github.vscode-github-actions"
+vscode "github.vscode-pull-request-github"
+vscode "hashicorp.terraform"
+vscode "ibm.output-colorizer"
+vscode "in4margaret.compareit"
+vscode "ipedrazas.kubernetes-snippets"
+vscode "kevinrose.vsc-python-indent"
+vscode "lizebang.bash-extension-pack"
+vscode "mads-hartmann.bash-ide-vscode"
+vscode "maptz.regionfolder"
+vscode "me-dutour-mathieu.vscode-github-actions"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-vscode.makefile-tools"
+vscode "mushan.vscode-open-iterm2"
+vscode "pdconsec.vscode-print"
+vscode "qezhu.gitlink"
+vscode "qwtel.sqlite-viewer"
+vscode "redhat.fabric8-analytics"
+vscode "redhat.java"
+vscode "redhat.vscode-commons"
+vscode "redhat.vscode-yaml"
+vscode "rpinski.shebang-snippets"
+vscode "shakram02.bash-beautify"
+vscode "shardulm94.trailing-spaces"
+vscode "sidthesloth.html5-boilerplate"
+vscode "timonwong.shellcheck"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "wholroyd.jinja"
+vscode "yzhang.markdown-all-in-one"
+vscode "zhuangtongfa.material-theme"
+npm "corepack"
+npm "eslint"
+npm "gatsby-cli"
+npm "jest"
+npm "lint"
+npm "n"
+npm "nativefier"
+npm "next"
+npm "pino-pretty"
+npm "surge"
+npm "ttab"
+npm "yaml-lint"
