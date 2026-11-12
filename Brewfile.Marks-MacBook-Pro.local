@@ -1,4 +1,5 @@
 tap "anchore/grype"
+tap "anthropics/tap"
 tap "gcenx/wine"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
@@ -12,14 +13,16 @@ brew "awscli"
 brew "libpng"
 # Low-level library for pixel manipulation
 brew "pixman"
-# Easily download, build, install, upgrade, and uninstall Python packages
-brew "python-setuptools"
 # Vector graphics library with cross-device output support
 brew "cairo"
+# CLI for Cloudflare API v4
+brew "cloudflare-cli4"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose"
 # Command-line tools for fly.io services
@@ -30,6 +33,8 @@ brew "giflib"
 brew "git-filter-repo"
 # Audit git repos for secrets
 brew "gitleaks"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
 # Vulnerability scanner for container images and filesystems
 brew "grype"
 # Image manipulation library
@@ -56,6 +61,8 @@ brew "mas"
 brew "minikube"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Package compiler and linker metadata toolkit
@@ -66,12 +73,16 @@ brew "podman"
 brew "pre-commit"
 # Python bindings for v6 of Qt
 brew "pyqt"
+# Easily download, build, install, upgrade, and uninstall Python packages
+brew "python-setuptools"
 # Python interface to Tcl/Tk
 brew "python-tk@3.13"
 # Rsync for cloud storage
 brew "rclone"
 # Command-line interface for Render
 brew "render"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # SMART hard drive monitoring
@@ -82,6 +93,8 @@ brew "socat"
 brew "testdisk"
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
+# Free app that makes your Internet safer
+cask "cloudflare-warp"
 # Open Source Multimedia Framework
 cask "gstreamer-development"
 # Open Source Multimedia Framework
@@ -90,14 +103,16 @@ cask "gstreamer-runtime"
 cask "ngrok"
 # Multimedia player
 cask "vlc"
+mas "Bitwarden", id: 1352778147
 mas "Evernote Web Clipper", id: 1481669779
-mas "HP", id: 1474276998
 mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "PDFgear", id: 6469021132
+mas "Slack", id: 803453959
 mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
+vscode "anthropic.claude-code"
 vscode "anysphere.cursorpyright"
 vscode "anysphere.remote-containers"
 vscode "anysphere.remote-ssh"
